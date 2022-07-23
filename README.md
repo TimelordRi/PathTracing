@@ -25,7 +25,7 @@
 
 ### 加速结构
 
-加速结构本打算使用CUDA并行构建的HLBVH，此处参考pbrt3，但后续由于时间关系没有做完，遂参考了pbrt3和https://github.com/AKGWSB/EzRT项目中SAH线性加速结构的构建，因为此处要使用OpenGL的TBO纹理缓冲和GLSL通信。
+加速结构本打算使用CUDA并行构建的HLBVH，此处参考pbrt3，但后续由于时间关系没有做完，遂参考了pbrt3和https://github.com/AKGWSB/EzRT 项目中SAH线性加速结构的构建，因为此处要使用OpenGL的TBO纹理缓冲和GLSL通信。
 
 - 一般的BVH加速结构
 
@@ -43,11 +43,11 @@
 
 ## 渲染管线
 
-渲染管线主要参考了https://github.com/AKGWSB/EzRT项目中的多帧混合做法，并结合https://learnopengl-cn.github.io/05%20Advanced%20Lighting/08%20Deferred%20Shading/中的延迟着色代码进行修改，设置片元着色器的纹理附件，在一个管线结束后通过纹理附件来保存一帧的数据，并在下一帧进行混合操作。流程图如下：
+渲染管线主要参考了https://github.com/AKGWSB/EzRT 项目中的多帧混合做法，并结合https://learnopengl-cn.github.io/05%20Advanced%20Lighting/08%20Deferred%20Shading/ 中的延迟着色代码进行修改，设置片元着色器的纹理附件，在一个管线结束后通过纹理附件来保存一帧的数据，并在下一帧进行混合操作。流程图如下：
 
 <img src="./img/Pipeline.png" style="zoom:50%;" />
 
-着色器类负责检查着色器的载入、GLSL数据和纹理的传输和编译错误检测等功能，实现来自于https://learnopengl-cn.github.io/。
+着色器类负责检查着色器的载入、GLSL数据和纹理的传输和编译错误检测等功能，实现来自于https://learnopengl-cn.github.io/ 。
 
 ## 渲染
 
@@ -63,7 +63,7 @@
 
 ### 间接光照
 
-间接光照的重点在于BRDF中对于各个材质的处理，由于此处不考虑次表面反射，微表面反射和清漆效果等参数，针对镜面反射和漫反射进行建模，并根据两个反射的材质颜色进行加权混合，同时还根据菲涅尔方程进行颜色微调。此处参考了https://www.shadertoy.com/view/MsXfz4的实现。
+间接光照的重点在于BRDF中对于各个材质的处理，由于此处不考虑次表面反射，微表面反射和清漆效果等参数，针对镜面反射和漫反射进行建模，并根据两个反射的材质颜色进行加权混合，同时还根据菲涅尔方程进行颜色微调。此处参考了https://www.shadertoy.com/view/MsXfz4 的实现。
 
 #### 漫反射
 
