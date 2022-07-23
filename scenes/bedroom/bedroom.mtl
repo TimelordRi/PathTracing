@@ -1,0 +1,159 @@
+newmtl Boxes
+Kd 0.483044 0.384664 0.301561
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl PlasticCable
+Kd 0.558543 0.558543 0.558543
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl LampEmitter
+Kd 0.64 0.64 0.64
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Blankets
+Kd 0.485435 0.456263 0.428075
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Bedsheets
+Kd 0 0 0
+Ks 0 0 0
+Ns 1
+Ni 1
+map_Kd wallpaper-1.jpg
+newmtl Window
+Kd 0.028173 0.028173 0.028173
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl PictureBacking
+Kd 0.111567 0.037068 0.017016
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Picture
+Kd 0 0 0
+Ks 0 0 0
+Ns 1
+Ni 1
+map_Kd Teapot.png
+newmtl Rocks1
+Kd 0.350827 0.242986 0.17883
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Rocks2
+Kd 0.098964 0.098964 0.098964
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Rocks3
+Kd 0.558544 0.558544 0.558544
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl DecoPlant
+Kd 0.041772 0.011306 0.007575
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Painting
+Kd 0.015396 0.015396 0.015396
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Carpet
+Kd 0.034499 0.034499 0.034499
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Matress
+Kd 0.893289 0.893289 0.893289
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl WoodFloor
+Kd 0 0 0
+Ks 0.5 0.5 0.5
+Ns 100
+Ni 1
+map_Kd wood4.jpg
+newmtl Walls2
+Kd 0.799999 0.799999 0.799999
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl WoodFurniture
+Kd 0 0 0
+Ks 0.1 0.1 0.1
+Ns 10
+Ni 1
+map_Kd panel-wood-3.jpg
+newmtl Walls
+Kd 0.799999 0.799999 0.799999
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl Mirror
+Kd 0 0 0
+Ks 1 1 1
+Ns 100000
+Ni 1
+newmtl Aluminium
+Kd 0 0 0
+Ks 1 1 1
+Ns 1000
+Ni 1
+newmtl BookCover
+Kd 0 0 0
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl BookPages
+Kd 0.567027 0.567027 0.567027
+Ks 0 0 0
+Ns 1
+Ni 1
+newmtl LampMetal
+Kd 0 0 0
+Ks 1 1 1
+Ns 1000
+Ni 1
+newmtl LampGlass
+Kd 0 0 0
+Ks 0 0 0
+Ns 1
+Ni 1.5
+newmtl PictureFrame
+Kd 0 0 0
+Ks 1 1 1
+Ns 1000
+Ni 1
+newmtl Glass
+Kd 0 0 0
+Ks 0 0 0
+Ns 1
+Ni 1.5
+newmtl Vase
+Kd 0 0 0
+Ks 0 0 0
+Ns 1
+Ni 1.5
+newmtl CurtainRod
+Kd 0 0 0
+Ks 1 1 1
+Ns 1000
+Ni 1
+newmtl StainlessSmooth
+Kd 0 0 0
+Ks 1 1 1
+Ns 1000
+Ni 1
+newmtl Light
+Kd 0 0 0
+Ks 0 0 0
+Ns 1
+Ni 1
