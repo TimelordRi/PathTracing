@@ -2,7 +2,7 @@
 
 ## 运行环境
 
-- INVIDIA 1050Ti
+- INVIDIA 1050Ti/3060
 - Visual Studio 2022
 - GLFW3 + glad （OpenGL）
 
